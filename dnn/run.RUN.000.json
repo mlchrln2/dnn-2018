@@ -1,0 +1,6857 @@
+[
+    {
+        "status": "Started",
+        "start_time": "2018-05-31 18:05:13.297220",
+        "parameters": [
+            "non_trainable_params: 0",
+            "shuffle: True",
+            "verbose: False",
+            "conv: [128, 20, 1, 128, 10, 1]",
+            "run_id: RUN.000",
+            "epochs: 400",
+            "alpha_dropout: False",
+            "out_act: softmax",
+            "logfile: None",
+            "dense: [1000, 500, 100, 50]",
+            "save: .",
+            "activation: relu",
+            "data_url: ftp://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/normal-tumor/",
+            "total_params: 1534752",
+            "optimizer: sgd",
+            "timeout: -1",
+            "learning_rate: 0.001",
+            "batch_size: 20",
+            "metrics: accuracy",
+            "trainable_params: 1534752",
+            "gpus: []",
+            "train_bool: True",
+            "pool: [1, 10]",
+            "loss: categorical_crossentropy",
+            "datatype: <type 'numpy.float32'>",
+            "drop: 0.1",
+            "config_file: /home/orlandomelchor/Desktop/dnn-2018/dnn/nt3_default_model.txt",
+            "test_data: nt_test2.csv",
+            "classes: 2",
+            "experiment_id: EXP.000",
+            "model_name: nt3",
+            "train_data: nt_train2.csv"
+        ],
+        "experiment_id": "EXP.000",
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.7018713722504584
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 1/400, duration: 0.948381s, loss: 0.70187137225, val_loss: 0.676325169893"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6763251698934115
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6836419733936022
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 2/400, duration: 0.712814s, loss: 0.683641973394, val_loss: 0.669348613782"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6693486137823625
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6770473769792533
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 3/400, duration: 0.706509s, loss: 0.677047376979, val_loss: 0.662023308811"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6620233088106542
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6703661504852375
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 4/400, duration: 0.70385s, loss: 0.670366150485, val_loss: 0.654882405605"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6548824056045158
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6604743070652522
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 5/400, duration: 0.718696s, loss: 0.660474307065, val_loss: 0.642256089441"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6422560894405925
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6507898825897644
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 6/400, duration: 0.711096s, loss: 0.65078988259, val_loss: 0.634068695398"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6340686953984774
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6423281305934418
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 7/400, duration: 0.711934s, loss: 0.642328130593, val_loss: 0.624156998171"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6241569981708394
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6352693743338309
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 8/400, duration: 0.7069s, loss: 0.635269374334, val_loss: 0.616202153109"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6162021531091704
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6246608830792683
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 9/400, duration: 0.712756s, loss: 0.624660883079, val_loss: 0.603643766233"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.6036437662331374
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.6097027683425075
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 10/400, duration: 0.717023s, loss: 0.609702768343, val_loss: 0.59250245186"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.5925024518599877
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.596718646703376
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 11/400, duration: 0.708303s, loss: 0.596718646703, val_loss: 0.583591245688"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.5835912456879249
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5925935496382037
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 12/400, duration: 0.714203s, loss: 0.592593549638, val_loss: 0.567202463433"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.567202463433459
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5737143283132496
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 13/400, duration: 0.716277s, loss: 0.573714328313, val_loss: 0.553242585042"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.5532425850421399
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5654850127191761
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 14/400, duration: 0.708576s, loss: 0.565485012719, val_loss: 0.540784503197"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.540784503196503
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5536786884643567
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 15/400, duration: 0.710171s, loss: 0.553678688464, val_loss: 0.528067848482"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.528067848482332
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5392322357606971
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 16/400, duration: 0.707574s, loss: 0.539232235761, val_loss: 0.512363036196"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.512363036195715
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5269158417831995
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 17/400, duration: 0.712066s, loss: 0.526915841783, val_loss: 0.506864429771"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.5068644297706497
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5176877069389757
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 18/400, duration: 0.709964s, loss: 0.517687706939, val_loss: 0.487541986929"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.4875419869289532
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.5065809113549268
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 19/400, duration: 0.731289s, loss: 0.506580911355, val_loss: 0.485909449054"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.485909449053811
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4908025710469996
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 20/400, duration: 0.713915s, loss: 0.490802571047, val_loss: 0.458869785904"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.4588697859040507
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.47174177132220696
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 21/400, duration: 0.727045s, loss: 0.471741771322, val_loss: 0.447327933737"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.4473279337366144
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4640744424534345
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 22/400, duration: 0.708298s, loss: 0.464074442453, val_loss: 0.431095158929"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.43109515892875777
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.45183188151144105
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 23/400, duration: 0.713484s, loss: 0.451831881511, val_loss: 0.423934143532"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.42393414353157255
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4273421085601095
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 24/400, duration: 0.735754s, loss: 0.42734210856, val_loss: 0.40748782904"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.4074878290399805
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4213208695009168
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 25/400, duration: 0.742579s, loss: 0.421320869501, val_loss: 0.396812394157"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.39681239415715625
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.4164445615795991
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 26/400, duration: 0.717192s, loss: 0.41644456158, val_loss: 0.384872543437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.384872543436664
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.39917678507322185
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 27/400, duration: 0.726317s, loss: 0.399176785073, val_loss: 0.372039620068"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.3720396200676898
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.38461090559090916
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 28/400, duration: 0.728279s, loss: 0.384610905591, val_loss: 0.354125679164"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.35412567916449966
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.37921932699801414
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 29/400, duration: 0.73697s, loss: 0.379219326998, val_loss: 0.34662404969"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.3466240496902199
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.36987951906779604
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 30/400, duration: 0.715565s, loss: 0.369879519068, val_loss: 0.340221322708"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.34022132270819655
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.3528325488552738
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 31/400, duration: 0.724112s, loss: 0.352832548855, val_loss: 0.326978614905"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.3269786149054974
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.3416501751818715
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 32/400, duration: 0.713612s, loss: 0.341650175182, val_loss: 0.311550359001"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.31155035900069283
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.3409963328450031
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 33/400, duration: 0.718257s, loss: 0.340996332845, val_loss: 0.307643768045"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.30764376804545207
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.3244762458233407
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 34/400, duration: 0.712607s, loss: 0.324476245823, val_loss: 0.297498002127"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.29749800212733396
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.32303982351999566
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 35/400, duration: 0.741472s, loss: 0.32303982352, val_loss: 0.290336146847"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.2903361468465178
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.2959634901763261
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 36/400, duration: 0.730409s, loss: 0.295963490176, val_loss: 0.276863276958"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.2768632769584656
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.29656793732985515
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 37/400, duration: 0.737486s, loss: 0.29656793733, val_loss: 0.262988585067"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.2629885850669621
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.2988832523025272
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 38/400, duration: 0.734321s, loss: 0.298883252303, val_loss: 0.256832617771"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.25683261777137545
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.27383288208741025
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 39/400, duration: 0.725465s, loss: 0.273832882087, val_loss: 0.24681079867"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.24681079867002848
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.28003827233239353
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 40/400, duration: 0.727521s, loss: 0.280038272332, val_loss: 0.238903399531"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.23890339953082423
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.2698504702953031
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 41/400, duration: 0.760142s, loss: 0.269850470295, val_loss: 0.244926375317"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.24492637531740682
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.2607167938335973
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 42/400, duration: 0.706889s, loss: 0.260716793834, val_loss: 0.223788197641"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.22378819764077246
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.25656575016716526
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 43/400, duration: 0.736597s, loss: 0.256565750167, val_loss: 0.219362929984"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.21936292998440615
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.24710564380560573
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 44/400, duration: 0.72865s, loss: 0.247105643806, val_loss: 0.209648522672"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.20964852267211967
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.24658474690181362
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 45/400, duration: 0.729342s, loss: 0.246584746902, val_loss: 0.203625100789"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.2036251007885366
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.2386565239750984
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 46/400, duration: 0.717022s, loss: 0.238656523975, val_loss: 0.201740973896"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.20174097389607995
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.23091493638300853
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 47/400, duration: 0.710291s, loss: 0.230914936383, val_loss: 0.193922666924"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1939226669239831
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.23512168518298562
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 48/400, duration: 0.727671s, loss: 0.235121685183, val_loss: 0.18741608656"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.18741608655952907
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.21916851671428897
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 49/400, duration: 0.719255s, loss: 0.219168516714, val_loss: 0.181686256941"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.18168625694054824
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.21529599790658718
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 50/400, duration: 0.72974s, loss: 0.215295997907, val_loss: 0.178641837064"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.17864183706420284
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.21344299692719287
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 51/400, duration: 0.710303s, loss: 0.213442996927, val_loss: 0.171158415767"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.17115841576686272
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.2064097267485855
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 52/400, duration: 0.742944s, loss: 0.206409726749, val_loss: 0.166285658737"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1662856587371626
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.20588043619162563
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 53/400, duration: 0.725925s, loss: 0.205880436192, val_loss: 0.163772845602"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.16377284560170208
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.19546451817565122
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 54/400, duration: 0.728929s, loss: 0.195464518176, val_loss: 0.160652741581"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.16065274158140996
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1886244650062454
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 55/400, duration: 0.722154s, loss: 0.188624465006, val_loss: 0.155995187955"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1559951879553028
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.18474198905212866
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 56/400, duration: 0.723286s, loss: 0.184741989052, val_loss: 0.154482260555"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1544822605548205
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.18790743304269744
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 57/400, duration: 0.723777s, loss: 0.187907433043, val_loss: 0.147226731886"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.14722673188556323
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.18397583130048994
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 58/400, duration: 0.720418s, loss: 0.1839758313, val_loss: 0.144828299647"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.14482829964661098
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.18111597434756216
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 59/400, duration: 0.718121s, loss: 0.181115974348, val_loss: 0.141189699511"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.14118969951059435
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.17605045626360774
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 60/400, duration: 0.756134s, loss: 0.176050456264, val_loss: 0.139149498064"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.13914949806420118
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1725946500662538
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 61/400, duration: 0.734798s, loss: 0.172594650066, val_loss: 0.137391803044"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1373918030437056
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.16505436433541168
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 62/400, duration: 0.731294s, loss: 0.165054364335, val_loss: 0.133407343413"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.13340734341344634
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.16440265047675465
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 63/400, duration: 0.731587s, loss: 0.164402650477, val_loss: 0.131277851448"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.13127785144777565
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.15712899606407418
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 64/400, duration: 0.716197s, loss: 0.157128996064, val_loss: 0.136726939595"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.136726939594829
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.16372375316826557
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 65/400, duration: 0.743687s, loss: 0.163723753168, val_loss: 0.128450668775"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.12845066877511832
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.15591951801511744
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 66/400, duration: 0.73975s, loss: 0.155919518015, val_loss: 0.130869911371"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.13086991137141116
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.15101847689331308
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 67/400, duration: 0.727733s, loss: 0.151018476893, val_loss: 0.145924659772"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1459246597715191
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.15707158802269636
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 68/400, duration: 0.720559s, loss: 0.157071588023, val_loss: 0.121734194458"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.12173419445753098
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1545738974184894
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 69/400, duration: 0.711285s, loss: 0.154573897418, val_loss: 0.119153509398"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11915350939844038
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1492204300410093
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 70/400, duration: 0.75167s, loss: 0.149220430041, val_loss: 0.120932485778"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.12093248577801498
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.14875647206113865
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 71/400, duration: 0.742675s, loss: 0.148756472061, val_loss: 0.117017328114"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1170173281139427
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1446940566815971
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 72/400, duration: 0.733262s, loss: 0.144694056682, val_loss: 0.114484156658"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11448415665776579
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.14275428167366522
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 73/400, duration: 0.730977s, loss: 0.142754281674, val_loss: 0.114947510401"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11494751040126894
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.14653132050811932
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 74/400, duration: 0.71323s, loss: 0.146531320508, val_loss: 0.113544534397"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11354453439687516
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.14075777387399807
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 75/400, duration: 0.717907s, loss: 0.140757773874, val_loss: 0.11888203822"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11888203822024218
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.14609155159332707
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 76/400, duration: 0.729767s, loss: 0.146091551593, val_loss: 0.111522792884"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11152279288410306
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.14214276476728938
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 77/400, duration: 0.725375s, loss: 0.142142764767, val_loss: 0.117174938634"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11717493863372536
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1358700095302378
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 78/400, duration: 0.771817s, loss: 0.13587000953, val_loss: 0.107357600404"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1073576004042492
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12986573395555784
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 79/400, duration: 0.745533s, loss: 0.129865733956, val_loss: 0.108339115821"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10833911582098141
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12696402531684803
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 80/400, duration: 0.726952s, loss: 0.126964025317, val_loss: 0.11751519378"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1175151937804022
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.13011984092602588
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 81/400, duration: 0.740156s, loss: 0.130119840926, val_loss: 0.107854897847"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10785489784670876
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12712186396174172
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 82/400, duration: 0.723492s, loss: 0.127121863962, val_loss: 0.104623376906"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10462337690633494
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12880692813682473
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 83/400, duration: 0.74679s, loss: 0.128806928137, val_loss: 0.11950439965"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11950439964974677
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1259570201425022
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 84/400, duration: 0.74258s, loss: 0.125957020143, val_loss: 0.10252585559"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1025258555904135
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.121855568003738
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 85/400, duration: 0.729473s, loss: 0.121855568004, val_loss: 0.114247555447"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1142475554472083
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.1275246801105982
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 86/400, duration: 0.722167s, loss: 0.127524680111, val_loss: 0.101546015669"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10154601566858225
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12080132849057794
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 87/400, duration: 0.721162s, loss: 0.120801328491, val_loss: 0.10076707117"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10076707116998992
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12466814358850807
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 88/400, duration: 0.712835s, loss: 0.124668143589, val_loss: 0.102144452033"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10214445203334302
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10930053553757652
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 89/400, duration: 0.708298s, loss: 0.109300535538, val_loss: 0.0992673482303"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09926734823030192
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.11466524303089926
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 90/400, duration: 0.743204s, loss: 0.114665243031, val_loss: 0.103569963283"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1035699632826385
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12231127800331851
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 91/400, duration: 0.731155s, loss: 0.122311278003, val_loss: 0.0985541258763"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09855412587627664
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.11718957425272924
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 92/400, duration: 0.710784s, loss: 0.117189574253, val_loss: 0.0983334037026"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09833340370259085
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.11380314517883672
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 93/400, duration: 0.733983s, loss: 0.113803145179, val_loss: 0.0976798879829"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.097679887982932
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.11093220439610674
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 94/400, duration: 0.715768s, loss: 0.110932204396, val_loss: 0.0971937600549"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09719376005492844
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.11327220122419598
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 95/400, duration: 0.763165s, loss: 0.113272201224, val_loss: 0.13930311549"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.1393031154895996
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.12368328079920517
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 96/400, duration: 0.722171s, loss: 0.123683280799, val_loss: 0.0963579979237"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09635799792367261
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10564827740244606
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 97/400, duration: 0.752017s, loss: 0.105648277402, val_loss: 0.0957262766111"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09572627661111471
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10627337612355235
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 98/400, duration: 0.771199s, loss: 0.106273376124, val_loss: 0.0973284492022"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0973284492021674
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.11388367700884722
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 99/400, duration: 0.72979s, loss: 0.113883677009, val_loss: 0.110697105944"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11069710594373983
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10686000491999703
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 100/400, duration: 0.762992s, loss: 0.10686000492, val_loss: 0.0955249051322"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09552490513224701
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10434516683879802
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 101/400, duration: 0.724743s, loss: 0.104345166839, val_loss: 0.0954998838422"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09549988384221818
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10051505517821283
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 102/400, duration: 0.713452s, loss: 0.100515055178, val_loss: 0.094847311116"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09484731111597348
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10099986590275414
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 103/400, duration: 0.716686s, loss: 0.100999865903, val_loss: 0.0955331257538"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09553312575379452
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10092142674478256
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 104/400, duration: 0.716919s, loss: 0.100921426745, val_loss: 0.0999119537068"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09991195370684137
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10038435249385504
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 105/400, duration: 0.723437s, loss: 0.100384352494, val_loss: 0.0954395954634"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09543959546339262
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10566977541502272
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 106/400, duration: 0.71616s, loss: 0.105669775415, val_loss: 0.0932337792812"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09323377928116938
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10559162572548185
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 107/400, duration: 0.714349s, loss: 0.105591625725, val_loss: 0.0930720394464"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09307203944642227
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10352251968377525
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 108/400, duration: 0.70868s, loss: 0.103522519684, val_loss: 0.0943041315133"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09430413151329214
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.100548952693958
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 109/400, duration: 0.712112s, loss: 0.100548952694, val_loss: 0.0927403199558"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09274031995580746
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09886382437342102
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 110/400, duration: 0.711426s, loss: 0.0988638243734, val_loss: 0.109049473323"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.10904947332256323
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.10058410619687283
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 111/400, duration: 0.71402s, loss: 0.100584106197, val_loss: 0.0935054971361"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09350549713610769
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09737344523940737
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 112/400, duration: 0.712572s, loss: 0.0973734452394, val_loss: 0.0943097672002"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0943097672001882
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09457816325141127
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 113/400, duration: 0.712042s, loss: 0.0945781632514, val_loss: 0.0925937348104"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09259373481040234
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09867850818953455
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 114/400, duration: 0.704824s, loss: 0.0986785081895, val_loss: 0.0969733697186"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09697336971864
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0923017299817239
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 115/400, duration: 0.710868s, loss: 0.0923017299817, val_loss: 0.0928947189627"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09289471896274107
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09786151968686468
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 116/400, duration: 0.713989s, loss: 0.0978615196869, val_loss: 0.0947677621266"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0947677621266225
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09783826080752756
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 117/400, duration: 0.725273s, loss: 0.0978382608075, val_loss: 0.0921867918353"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09218679183533976
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08985885365779679
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 118/400, duration: 0.731481s, loss: 0.0898588536578, val_loss: 0.0957119714964"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09571197149636862
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08878052922295188
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 119/400, duration: 0.725081s, loss: 0.088780529223, val_loss: 0.0912622867764"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0912622867764293
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09082558735774507
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 120/400, duration: 0.711479s, loss: 0.0908255873577, val_loss: 0.0907416876953"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09074168769525481
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09611628225461405
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 121/400, duration: 0.711541s, loss: 0.0961162822546, val_loss: 0.0955235891148"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09552358911483438
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08913324053371537
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 122/400, duration: 0.713143s, loss: 0.0891332405337, val_loss: 0.0915897032441"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0915897032441376
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09274512046912192
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 123/400, duration: 0.736173s, loss: 0.0927451204691, val_loss: 0.090526515136"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0905265151360235
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09048479026258514
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 124/400, duration: 0.722172s, loss: 0.0904847902626, val_loss: 0.0929559982948"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09295599829483699
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08381834565441658
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 125/400, duration: 0.721665s, loss: 0.0838183456544, val_loss: 0.0901270512153"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09012705121528018
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08677403892401847
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 126/400, duration: 0.731632s, loss: 0.086774038924, val_loss: 0.111697536301"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.11169753630052913
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09620575417948792
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 127/400, duration: 0.715649s, loss: 0.0962057541795, val_loss: 0.0915286474946"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09152864749458703
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08738366208135455
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 128/400, duration: 0.718733s, loss: 0.0873836620814, val_loss: 0.0913861967571"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09138619675711318
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08521713314483337
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 129/400, duration: 0.716205s, loss: 0.0852171331448, val_loss: 0.091570329416"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09157032941604827
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08238072532201397
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 130/400, duration: 0.712932s, loss: 0.082380725322, val_loss: 0.0904083226163"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09040832261626537
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08956154954543047
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 131/400, duration: 0.725394s, loss: 0.0895615495454, val_loss: 0.0919341356787"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09193413567866061
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08333846721830802
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 132/400, duration: 0.713002s, loss: 0.0833384672183, val_loss: 0.0902416341371"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09024163413714696
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08481947610794115
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 133/400, duration: 0.713862s, loss: 0.0848194761079, val_loss: 0.0900449235956"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0900449235956152
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08368575301399739
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 134/400, duration: 0.714542s, loss: 0.083685753014, val_loss: 0.0904367979668"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09043679796680287
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08308541256324396
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 135/400, duration: 0.72446s, loss: 0.0830854125632, val_loss: 0.0904185952996"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.09041859529964574
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08329449771151547
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 136/400, duration: 0.710915s, loss: 0.0832944977115, val_loss: 0.0896990760327"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08969907603272191
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07798757638306
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 137/400, duration: 0.713898s, loss: 0.0779875763831, val_loss: 0.089521724887"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08952172488703594
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08281306422359576
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 138/400, duration: 0.710506s, loss: 0.0828130642236, val_loss: 0.0894202622292"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08942026222919251
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07957328030686245
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 139/400, duration: 0.709261s, loss: 0.0795732803069, val_loss: 0.089405088223"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08940508822304802
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07983769935387759
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 140/400, duration: 0.711417s, loss: 0.0798376993539, val_loss: 0.0894484851587"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08944848515874856
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07975156671912352
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 141/400, duration: 0.712506s, loss: 0.0797515667191, val_loss: 0.0894112871191"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08941128711913016
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08170677856468773
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 142/400, duration: 0.71354s, loss: 0.0817067785647, val_loss: 0.0894681368727"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08946813687265336
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08756184405378097
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 143/400, duration: 0.727119s, loss: 0.0875618440538, val_loss: 0.0894527962575"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0894527962574592
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08163296984551041
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 144/400, duration: 0.722099s, loss: 0.0816329698455, val_loss: 0.0894506692209"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08945066922090271
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08694284219431794
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 145/400, duration: 0.714044s, loss: 0.0869428421943, val_loss: 0.089394146329"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08939414632903946
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0847208953630538
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 146/400, duration: 0.720309s, loss: 0.0847208953631, val_loss: 0.0892824685084"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08928246850838194
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08051205529536132
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 147/400, duration: 0.722562s, loss: 0.0805120552954, val_loss: 0.0892831081642"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08928310816417208
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08256444481124811
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 148/400, duration: 0.740068s, loss: 0.0825644448112, val_loss: 0.0892820301485"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08928203014852283
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08344813481449506
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 149/400, duration: 0.719855s, loss: 0.0834481348145, val_loss: 0.089298621836"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08929862183603374
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0848250015195942
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 150/400, duration: 0.720638s, loss: 0.0848250015196, val_loss: 0.0892576940123"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08925769401232263
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.082017116307325
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 151/400, duration: 0.735312s, loss: 0.0820171163073, val_loss: 0.0892855548463"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08928555484626677
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.079137152736116
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 152/400, duration: 0.722527s, loss: 0.0791371527361, val_loss: 0.0892089429878"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08920894298780631
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07922405037040546
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 153/400, duration: 0.727093s, loss: 0.0792240503704, val_loss: 0.0892426597176"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08924265971758982
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08524020620411336
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 154/400, duration: 0.717338s, loss: 0.0852402062041, val_loss: 0.0892307202534"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08923072025336169
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08361533585929307
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 155/400, duration: 0.727864s, loss: 0.0836153358593, val_loss: 0.089263531425"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0892635314249909
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0848307678779349
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 156/400, duration: 0.71117s, loss: 0.0848307678779, val_loss: 0.0892521759196"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08925217591955528
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08098897373143929
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 157/400, duration: 0.721637s, loss: 0.0809889737314, val_loss: 0.0892406478785"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08924064787847179
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08192528767312263
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 158/400, duration: 0.710329s, loss: 0.0819252876731, val_loss: 0.0892392998965"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08923929989650532
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07707578436049083
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 159/400, duration: 0.733764s, loss: 0.0770757843605, val_loss: 0.0892516913322"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0892516913322302
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07415312581945165
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 160/400, duration: 0.73713s, loss: 0.0741531258195, val_loss: 0.089246614999"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.089246614998975
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08655348475272205
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 161/400, duration: 0.720768s, loss: 0.0865534847527, val_loss: 0.0892472239016"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08924722390158193
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08137148559409897
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 162/400, duration: 0.719503s, loss: 0.0813714855941, val_loss: 0.0892454493609"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08924544936085081
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08237024133734654
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 163/400, duration: 0.712015s, loss: 0.0823702413373, val_loss: 0.0892366452364"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08923664523640296
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08396605953848195
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 164/400, duration: 0.706888s, loss: 0.0839660595385, val_loss: 0.089231871342"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08923187134201294
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07712824679111928
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 165/400, duration: 0.724981s, loss: 0.0771282467911, val_loss: 0.0892326640864"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08923266408639355
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07835102250926758
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 166/400, duration: 0.708893s, loss: 0.0783510225093, val_loss: 0.0892289846849"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0892289846848983
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08189803657844506
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 167/400, duration: 0.763643s, loss: 0.0818980365784, val_loss: 0.0892274204928"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922742049281414
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0776925652097069
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 168/400, duration: 0.845879s, loss: 0.0776925652097, val_loss: 0.0892279125437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0892279125437453
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08126986354928718
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 169/400, duration: 0.753836s, loss: 0.0812698635493, val_loss: 0.0892284206681"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922842066813182
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08070733416792912
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 170/400, duration: 0.75815s, loss: 0.0807073341679, val_loss: 0.089229347041"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922934704102002
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07900012785979856
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 171/400, duration: 1.035445s, loss: 0.0790001278598, val_loss: 0.0892289957566"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922899575656527
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08283197164091881
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 172/400, duration: 0.81091s, loss: 0.0828319716409, val_loss: 0.0892282291543"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922822915434421
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07965621436683497
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 173/400, duration: 0.832166s, loss: 0.0796562143668, val_loss: 0.0892276998114"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922769981143358
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08057001297037572
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 174/400, duration: 0.71927s, loss: 0.0805700129704, val_loss: 0.0892292916566"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0892292916566342
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0842824087114499
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 175/400, duration: 0.751777s, loss: 0.0842824087114, val_loss: 0.0892297446702"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922974467017017
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08350743721328976
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 176/400, duration: 0.812642s, loss: 0.0835074372133, val_loss: 0.0892294175871"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922941758707686
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0859800596148976
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 177/400, duration: 0.717732s, loss: 0.0859800596149, val_loss: 0.0892293952223"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939522230959
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07734070296012739
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 178/400, duration: 0.737043s, loss: 0.0773407029601, val_loss: 0.089229405773"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940577295693
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0806433671853797
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 179/400, duration: 0.7283s, loss: 0.0806433671854, val_loss: 0.0892293708646"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922937086464225
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07845855563725695
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 180/400, duration: 0.714345s, loss: 0.0784585556373, val_loss: 0.0892293855704"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922938557042108
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08075398516934201
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 181/400, duration: 0.71622s, loss: 0.0807539851693, val_loss: 0.0892293820145"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922938201446216
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08636619772634839
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 182/400, duration: 0.71148s, loss: 0.0863661977263, val_loss: 0.0892294199577"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922941995771615
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08062496995830651
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 183/400, duration: 0.752742s, loss: 0.0806249699583, val_loss: 0.0892294354711"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.0892294354710754
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08566140011931572
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 184/400, duration: 0.727334s, loss: 0.0856614001193, val_loss: 0.0892294171182"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922941711815921
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08668263977060776
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 185/400, duration: 0.718373s, loss: 0.0866826397706, val_loss: 0.0892293603791"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922936037912235
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.082102442802266
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 186/400, duration: 0.736584s, loss: 0.0821024428023, val_loss: 0.0892294016569"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940165690192
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08349965841569751
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 187/400, duration: 0.725793s, loss: 0.0834996584157, val_loss: 0.0892294013703"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940137034113
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08003371299591874
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 188/400, duration: 0.721446s, loss: 0.0800337129959, val_loss: 0.0892294041317"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940413174513
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08170337455539643
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 189/400, duration: 0.715916s, loss: 0.0817033745554, val_loss: 0.0892294067499"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940674986872
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0814131565633411
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 190/400, duration: 0.719604s, loss: 0.0814131565633, val_loss: 0.0892294082348"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940823477465
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08001248978874312
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 191/400, duration: 0.723185s, loss: 0.0800124897887, val_loss: 0.0892294032851"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940328508824
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07880533220256221
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 192/400, duration: 0.709745s, loss: 0.0788053322026, val_loss: 0.0892294002892"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940028922541
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08874942680442421
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 193/400, duration: 0.720692s, loss: 0.0887494268044, val_loss: 0.0892294041578"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940415779611
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08639686702442358
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 194/400, duration: 0.718468s, loss: 0.0863968670244, val_loss: 0.0892294099411"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940994111392
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08034634266877237
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 195/400, duration: 0.712471s, loss: 0.0803463426688, val_loss: 0.0892294030376"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922940303760392
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08628036743013642
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 196/400, duration: 0.71619s, loss: 0.0862803674301, val_loss: 0.0892293967463"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939674629198
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07919208216277031
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 197/400, duration: 0.71633s, loss: 0.0791920821628, val_loss: 0.0892293977102"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939771017828
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07758125822971561
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 198/400, duration: 0.717366s, loss: 0.0775812582297, val_loss: 0.0892293989476"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939894759989
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.082158286346289
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 199/400, duration: 0.713015s, loss: 0.0821582863463, val_loss: 0.0892293960299"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939602989
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08050799430323513
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 200/400, duration: 0.717421s, loss: 0.0805079943032, val_loss: 0.08922939504"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939503995272
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0808210772414889
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 201/400, duration: 0.729354s, loss: 0.0808210772415, val_loss: 0.0892293987522"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939875221753
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07952886767646268
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 202/400, duration: 0.744871s, loss: 0.0795288676765, val_loss: 0.0892293966681"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939666813903
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08178111825190523
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 203/400, duration: 0.720306s, loss: 0.0817811182519, val_loss: 0.089229396095"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939609501745
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07987196620181855
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 204/400, duration: 0.713455s, loss: 0.0798719662018, val_loss: 0.0892293951832"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939518323311
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07858058715307671
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 205/400, duration: 0.714193s, loss: 0.0785805871531, val_loss: 0.089229395574"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939557399782
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08144167116182593
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 206/400, duration: 0.723356s, loss: 0.0814416711618, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07453471828323843
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 207/400, duration: 0.729852s, loss: 0.0745347182832, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07861359282388579
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 208/400, duration: 0.718278s, loss: 0.0786135928239, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08492973271020135
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 209/400, duration: 0.730817s, loss: 0.0849297327102, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08355911098903407
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 210/400, duration: 0.721252s, loss: 0.083559110989, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07974072290509417
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 211/400, duration: 0.714806s, loss: 0.0797407229051, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08068426518379702
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 212/400, duration: 0.729552s, loss: 0.0806842651838, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07432877122312001
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 213/400, duration: 0.716971s, loss: 0.0743287712231, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0879372670486465
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 214/400, duration: 0.715773s, loss: 0.0879372670486, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08094330058937106
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 215/400, duration: 0.716071s, loss: 0.0809433005894, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07854388687178988
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 216/400, duration: 0.728684s, loss: 0.0785438868718, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08899560486555308
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 217/400, duration: 0.7173s, loss: 0.0889956048656, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07737666891680642
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 218/400, duration: 0.721579s, loss: 0.0773766689168, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08118896254202948
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 219/400, duration: 0.716062s, loss: 0.081188962542, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07472051188167048
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 220/400, duration: 0.73355s, loss: 0.0747205118817, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08472960270597109
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 221/400, duration: 0.716836s, loss: 0.084729602706, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08127768466904786
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 222/400, duration: 0.731534s, loss: 0.081277684669, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07756949295151176
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 223/400, duration: 0.717143s, loss: 0.0775694929515, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0865276575564764
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 224/400, duration: 0.716555s, loss: 0.0865276575565, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07972618781565158
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 225/400, duration: 0.72575s, loss: 0.0797261878157, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0783209921253907
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 226/400, duration: 0.750399s, loss: 0.0783209921254, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08187878207546609
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 227/400, duration: 0.713865s, loss: 0.0818787820755, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08430061909498976
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 228/400, duration: 0.714924s, loss: 0.084300619095, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08733440645776311
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 229/400, duration: 0.730031s, loss: 0.0873344064578, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0790493556750113
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 230/400, duration: 0.735343s, loss: 0.079049355675, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08484652671708534
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 231/400, duration: 0.715132s, loss: 0.0848465267171, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07515273508395602
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 232/400, duration: 0.71511s, loss: 0.075152735084, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08088445695420489
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 233/400, duration: 0.725799s, loss: 0.0808844569542, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08492621806843269
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 234/400, duration: 0.716185s, loss: 0.0849262180684, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08052646616333525
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 235/400, duration: 0.773006s, loss: 0.0805264661633, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08859581980469348
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 236/400, duration: 0.938444s, loss: 0.0885958198047, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07592423139270493
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 237/400, duration: 1.013581s, loss: 0.0759242313927, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07485476388366022
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 238/400, duration: 0.771472s, loss: 0.0748547638837, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08072693762084023
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 239/400, duration: 0.723782s, loss: 0.0807269376208, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08245460078081086
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 240/400, duration: 0.726019s, loss: 0.0824546007808, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0840076837601424
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 241/400, duration: 0.818417s, loss: 0.0840076837601, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07864335805158117
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 242/400, duration: 1.082269s, loss: 0.0786433580516, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07907732903644207
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 243/400, duration: 0.829114s, loss: 0.0790773290364, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0866084518188353
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 244/400, duration: 0.720286s, loss: 0.0866084518188, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08407309667685195
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 245/400, duration: 0.717634s, loss: 0.0840730966769, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07920434409768798
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 246/400, duration: 0.718127s, loss: 0.0792043440977, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0880640897077823
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 247/400, duration: 0.730346s, loss: 0.0880640897078, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08681325493103151
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 248/400, duration: 0.735314s, loss: 0.086813254931, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09317285134970829
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 249/400, duration: 0.744146s, loss: 0.0931728513497, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08446728814582483
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 250/400, duration: 0.845868s, loss: 0.0844672881458, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08547907909492582
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 251/400, duration: 1.113542s, loss: 0.0854790790949, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0869471281620098
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 252/400, duration: 0.759024s, loss: 0.086947128162, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07775949982309717
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 253/400, duration: 0.781057s, loss: 0.0777594998231, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08085635426452616
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 254/400, duration: 0.734925s, loss: 0.0808563542645, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0819218951716184
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 255/400, duration: 0.819056s, loss: 0.0819218951716, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08443740236078717
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 256/400, duration: 0.708053s, loss: 0.0844374023608, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08450686065529044
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 257/400, duration: 0.718453s, loss: 0.0845068606553, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07527782719732375
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 258/400, duration: 0.720087s, loss: 0.0752778271973, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08098757349814234
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 259/400, duration: 0.713424s, loss: 0.0809875734981, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0789588874078726
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 260/400, duration: 0.715295s, loss: 0.0789588874079, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0797085860930057
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 261/400, duration: 0.712767s, loss: 0.079708586093, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08368713960162447
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 262/400, duration: 0.713557s, loss: 0.0836871396016, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07416381049190114
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 263/400, duration: 0.719272s, loss: 0.0741638104919, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08161369127249134
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 264/400, duration: 0.714382s, loss: 0.0816136912725, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07772661888427158
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 265/400, duration: 0.716084s, loss: 0.0777266188843, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08386723608620164
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 266/400, duration: 0.711523s, loss: 0.0838672360862, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07871211579823034
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 267/400, duration: 0.711521s, loss: 0.0787121157982, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08027808311772117
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 268/400, duration: 0.715846s, loss: 0.0802780831177, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07964626097670004
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 269/400, duration: 0.71515s, loss: 0.0796462609767, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08509101165416152
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 270/400, duration: 0.714391s, loss: 0.0850910116542, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08136992595254748
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 271/400, duration: 0.717516s, loss: 0.0813699259525, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07833081245709426
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 272/400, duration: 0.724703s, loss: 0.0783308124571, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0773793669521887
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 273/400, duration: 0.7159s, loss: 0.0773793669522, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07899973779303493
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 274/400, duration: 0.71462s, loss: 0.078999737793, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08414782752281287
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 275/400, duration: 0.717887s, loss: 0.0841478275228, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07804076741539243
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 276/400, duration: 0.719908s, loss: 0.0780407674154, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08484327855100773
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 277/400, duration: 0.714773s, loss: 0.084843278551, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08283046139126901
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 278/400, duration: 0.710948s, loss: 0.0828304613913, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0821446615390336
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 279/400, duration: 0.709207s, loss: 0.082144661539, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08370873731954086
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 280/400, duration: 0.732564s, loss: 0.0837087373195, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08184565837521941
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 281/400, duration: 0.716019s, loss: 0.0818456583752, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07943555242308593
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 282/400, duration: 0.764066s, loss: 0.0794355524231, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08374770536966583
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 283/400, duration: 0.717586s, loss: 0.0837477053697, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08214568372183005
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 284/400, duration: 0.710908s, loss: 0.0821456837218, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08215951565294258
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 285/400, duration: 0.710294s, loss: 0.0821595156529, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08037183303940526
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 286/400, duration: 0.716066s, loss: 0.0803718330394, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08264118524336773
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 287/400, duration: 0.722564s, loss: 0.0826411852434, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08182674443476463
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 288/400, duration: 0.723872s, loss: 0.0818267444348, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08659608664575005
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 289/400, duration: 0.726436s, loss: 0.0865960866458, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0861842652746915
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 290/400, duration: 0.716738s, loss: 0.0861842652747, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0841717663858797
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 291/400, duration: 0.716542s, loss: 0.0841717663859, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07873948590728844
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 292/400, duration: 0.712656s, loss: 0.0787394859073, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08500860350601205
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 293/400, duration: 0.714037s, loss: 0.085008603506, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07683077397235978
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 294/400, duration: 0.716495s, loss: 0.0768307739724, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08678644184094908
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 295/400, duration: 0.730805s, loss: 0.0867864418409, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07793702594544445
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 296/400, duration: 0.711134s, loss: 0.0779370259454, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08390582813807941
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 297/400, duration: 0.732565s, loss: 0.0839058281381, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07673889653506034
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 298/400, duration: 0.714139s, loss: 0.0767388965351, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0731706489790916
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 299/400, duration: 0.71087s, loss: 0.0731706489791, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07910305651531908
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 300/400, duration: 0.718858s, loss: 0.0791030565153, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08211746625928452
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 301/400, duration: 0.7142s, loss: 0.0821174662593, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08356112198033183
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 302/400, duration: 0.71591s, loss: 0.0835611219803, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0770114788103803
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 303/400, duration: 0.714152s, loss: 0.0770114788104, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07846131162708152
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 304/400, duration: 0.711433s, loss: 0.0784613116271, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.081862790600581
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 305/400, duration: 0.727495s, loss: 0.0818627906006, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07914702458088588
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 306/400, duration: 0.711067s, loss: 0.0791470245809, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08379765768941563
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 307/400, duration: 0.707999s, loss: 0.0837976576894, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08509435680826992
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 308/400, duration: 0.706216s, loss: 0.0850943568083, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08033929518611543
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 309/400, duration: 0.711511s, loss: 0.0803392951861, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08268129978746488
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 310/400, duration: 0.721411s, loss: 0.0826812997875, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08200202478444932
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 311/400, duration: 0.719911s, loss: 0.0820020247844, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07891245724897564
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 312/400, duration: 0.710193s, loss: 0.078912457249, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07798499024217058
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 313/400, duration: 0.70833s, loss: 0.0779849902422, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08481019598002923
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 314/400, duration: 0.719368s, loss: 0.08481019598, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07711335806577302
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 315/400, duration: 0.716276s, loss: 0.0771133580658, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07378598495391434
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 316/400, duration: 0.708642s, loss: 0.0737859849539, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08450188064676972
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 317/400, duration: 0.717848s, loss: 0.0845018806468, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08542285677560991
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 318/400, duration: 0.717368s, loss: 0.0854228567756, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08571688941110663
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 319/400, duration: 0.723207s, loss: 0.0857168894111, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07758372712997808
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 320/400, duration: 0.713715s, loss: 0.07758372713, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.085840366741613
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 321/400, duration: 0.710878s, loss: 0.0858403667416, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07763836867030834
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 322/400, duration: 0.727958s, loss: 0.0776383686703, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08289407050618723
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 323/400, duration: 0.713186s, loss: 0.0828940705062, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08807307753496642
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 324/400, duration: 0.714541s, loss: 0.088073077535, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0818816056073808
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 325/400, duration: 0.714458s, loss: 0.0818816056074, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0831190498118434
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 326/400, duration: 0.709822s, loss: 0.0831190498118, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0750744730012325
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 327/400, duration: 0.710862s, loss: 0.0750744730012, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08308905282835827
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 328/400, duration: 0.717026s, loss: 0.0830890528284, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08144274084859783
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 329/400, duration: 0.717394s, loss: 0.0814427408486, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08298747195827982
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 330/400, duration: 0.72137s, loss: 0.0829874719583, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08227512266506455
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 331/400, duration: 0.713497s, loss: 0.0822751226651, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08589462640135828
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 332/400, duration: 0.715707s, loss: 0.0858946264014, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07417905700903536
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 333/400, duration: 0.710447s, loss: 0.074179057009, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08917366346301944
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 334/400, duration: 0.711579s, loss: 0.089173663463, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07805805885756548
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 335/400, duration: 0.714416s, loss: 0.0780580588576, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07663701750311981
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 336/400, duration: 0.714894s, loss: 0.0766370175031, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08221581693569072
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 337/400, duration: 0.716539s, loss: 0.0822158169357, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08078418338700685
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 338/400, duration: 0.715411s, loss: 0.080784183387, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08067284640244449
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 339/400, duration: 0.712131s, loss: 0.0806728464024, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07960797246421594
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 340/400, duration: 0.716058s, loss: 0.0796079724642, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0826956394329119
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 341/400, duration: 0.715083s, loss: 0.0826956394329, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08237518806127919
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 342/400, duration: 0.712356s, loss: 0.0823751880613, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07800509975880593
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 343/400, duration: 0.714778s, loss: 0.0780050997588, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08135903605639987
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 344/400, duration: 0.716419s, loss: 0.0813590360564, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07823142708783183
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 345/400, duration: 0.715574s, loss: 0.0782314270878, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08609148895208138
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 346/400, duration: 0.721213s, loss: 0.0860914889521, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08180069818362046
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 347/400, duration: 0.713991s, loss: 0.0818006981836, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08296282055596911
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 348/400, duration: 0.709837s, loss: 0.082962820556, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0817635937279087
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 349/400, duration: 0.712773s, loss: 0.0817635937279, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08547895112043923
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 350/400, duration: 0.714177s, loss: 0.0854789511204, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08481653642085513
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 351/400, duration: 0.70936s, loss: 0.0848165364209, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08214227804561813
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 352/400, duration: 0.70774s, loss: 0.0821422780456, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08159759393428337
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 353/400, duration: 0.710959s, loss: 0.0815975939343, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08615711499364384
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 354/400, duration: 0.722935s, loss: 0.0861571149936, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07801082787583476
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 355/400, duration: 0.713142s, loss: 0.0780108278758, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08288739776587842
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 356/400, duration: 0.730602s, loss: 0.0828873977659, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07893168083644894
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 357/400, duration: 0.715106s, loss: 0.0789316808364, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08518954584025981
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 358/400, duration: 0.717585s, loss: 0.0851895458403, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.0722261570433184
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 359/400, duration: 0.716919s, loss: 0.0722261570433, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08003729356097257
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 360/400, duration: 0.717417s, loss: 0.080037293561, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08223887124211379
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 361/400, duration: 0.713424s, loss: 0.0822388712421, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08533107306671225
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 362/400, duration: 0.717673s, loss: 0.0853310730667, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08917820770717544
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 363/400, duration: 0.71838s, loss: 0.0891782077072, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08119895109897006
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 364/400, duration: 0.729004s, loss: 0.081198951099, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07616228458264454
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 365/400, duration: 0.7061s, loss: 0.0761622845826, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07971418540086433
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 366/400, duration: 0.706647s, loss: 0.0797141854009, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07931532375775473
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 367/400, duration: 0.710455s, loss: 0.0793153237578, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.083312525395989
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 368/400, duration: 0.71018s, loss: 0.083312525396, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07584193913060552
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 369/400, duration: 0.719159s, loss: 0.0758419391306, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08360171161474572
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 370/400, duration: 0.716369s, loss: 0.0836017116147, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08672231533801128
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 371/400, duration: 0.7233s, loss: 0.086722315338, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08732254475015892
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 372/400, duration: 0.711737s, loss: 0.0873225447502, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08243534862734182
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 373/400, duration: 0.716221s, loss: 0.0824353486273, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.071696438283485
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 374/400, duration: 0.714806s, loss: 0.0716964382835, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08128966395327276
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 375/400, duration: 0.71921s, loss: 0.0812896639533, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08316904877601175
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 376/400, duration: 0.71014s, loss: 0.083169048776, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08791512314510742
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 377/400, duration: 0.706541s, loss: 0.0879151231451, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08087109913641746
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 378/400, duration: 0.710976s, loss: 0.0808710991364, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07928205588131151
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 379/400, duration: 0.715981s, loss: 0.0792820558813, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08225029131035515
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 380/400, duration: 0.703576s, loss: 0.0822502913104, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08770112222918487
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 381/400, duration: 0.719287s, loss: 0.0877011222292, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.09101466882823854
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 382/400, duration: 0.710406s, loss: 0.0910146688282, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08343555662135109
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 383/400, duration: 0.712626s, loss: 0.0834355566214, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07565452653634151
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 384/400, duration: 0.709351s, loss: 0.0756545265363, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07863157850587431
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 385/400, duration: 0.715724s, loss: 0.0786315785059, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08483412507725732
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 386/400, duration: 0.713218s, loss: 0.0848341250773, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07861902435748934
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 387/400, duration: 0.714885s, loss: 0.0786190243575, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07519198265481225
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 388/400, duration: 0.711069s, loss: 0.0751919826548, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07840087742344093
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 389/400, duration: 0.725564s, loss: 0.0784008774234, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08926139358307142
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 390/400, duration: 0.709255s, loss: 0.0892613935831, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07611078051801269
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 391/400, duration: 0.713236s, loss: 0.076110780518, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08430017732514392
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 392/400, duration: 0.710476s, loss: 0.0843001773251, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08057995028337121
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 393/400, duration: 0.71522s, loss: 0.0805799502834, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08216454176967816
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 394/400, duration: 0.719955s, loss: 0.0821645417697, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07871992881825739
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 395/400, duration: 0.713282s, loss: 0.0787199288183, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08053893176104789
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 396/400, duration: 0.72458s, loss: 0.080538931761, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08138581550306594
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 397/400, duration: 0.71532s, loss: 0.0813858155031, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08153849091721721
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 398/400, duration: 0.718434s, loss: 0.0815384909172, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.07875439913163775
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 399/400, duration: 0.718841s, loss: 0.0787543991316, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Running"
+        },
+        "training_loss": {
+            "set": 0.08833006259066994
+        },
+        "run_progress": {
+            "add": [
+                "epoch: 400/400, duration: 0.715834s, loss: 0.0883300625907, val_loss: 0.0892293954437"
+            ]
+        },
+        "validation_loss": {
+            "set": 0.08922939544374292
+        },
+        "run_id": "RUN.000"
+    },
+    {
+        "status": {
+            "set": "Finished"
+        },
+        "date_modified": {
+            "set": "NOW"
+        },
+        "end_time": {
+            "set": "2018-05-31 18:10:04.477222"
+        },
+        "runtime_hours": {
+            "set": 0.0808833338888889
+        },
+        "run_id": "RUN.000"
+    }
+]
