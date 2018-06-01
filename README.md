@@ -1,5 +1,5 @@
 # dnn-2018
-Feature importance on pilot1
+Feature importance inference for DNN architectures of Pilot1
 
 The only file missing to run the command below is the data file:
 
