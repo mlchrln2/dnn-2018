@@ -16,4 +16,4 @@ learning_rate=0.001
 drop=0.1
 classes=2
 pool=[1, 10]
-save='.'
+save='../networks/'

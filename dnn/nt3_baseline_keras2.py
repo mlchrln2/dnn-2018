@@ -2,6 +2,7 @@ from __future__ import print_function
 import pandas as pd
 import numpy as np
 import os
+import os.path
 import sys
 import gzip
 import argparse
@@ -21,17 +22,20 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler
 
-TIMEOUT=3600 # in sec; set this to -1 for no timeout 
+TIMEOUT=-1 # in sec; set this to -1 for no timeout 
 file_path = os.path.dirname(os.path.realpath(__file__))
 lib_path = os.path.abspath(os.path.join(file_path, '..', 'common'))
 sys.path.append(lib_path)
-lib_path2 = os.path.abspath(os.path.join(file_path, '..', '..', 'common'))
-sys.path.append(lib_path2)
 
 import data_utils
 import p1_common, p1_common_keras
 from solr_keras import CandleRemoteMonitor, compute_trainable_params, TerminateOnTimeOut
 
+#make next available directory
+save_figures = '../figures/'
+i=1
+while os.path.exists(save_figures+'analysis_network'+str(i)+'.png'):
+    i+=1
 
 #url_nt3 = 'ftp://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/normal-tumor/'
 #file_train = 'nt_train2.csv'
@@ -88,8 +92,7 @@ def read_config_file(file):
     fileParams['drop'] = eval(config.get(section[0],'drop'))
     fileParams['classes'] = eval(config.get(section[0],'classes'))
     fileParams['pool'] = eval(config.get(section[0],'pool'))
-    fileParams['save'] = eval(config.get(section[0], 'save'))
-
+    fileParams['save'] = eval(config.get(section[0], 'save'))+'network'+str(i)
     # parse the remaining values
     for k,v in config.items(section[0]):
         if not k in fileParams:
@@ -186,7 +189,6 @@ def load_data(data_path, gParameters):
     X_test = mat[X_train.shape[0]:, :]
 
     return X_train, Y_train, X_test, Y_test
-
 
 def run(gParameters):
 
@@ -294,8 +296,8 @@ def run(gParameters):
         with open("{}/{}.model.yaml".format(output_dir, model_name), "w") as yaml_file:
             yaml_file.write(model_yaml)
 
-        # serialize weights to HDF5
-        model.save("{}/{}.h5".format(output_dir, model_name))
+        # serialize model to HDF5
+        model.save('{}/{}_network{}.h5'.format(output_dir, model_name, i))
         print("Saved model to disk")
 
         # load json and create model
@@ -312,8 +314,8 @@ def run(gParameters):
         loaded_model_yaml = model_from_yaml(loaded_model_yaml)
 
 
-        # load weights into new model
-        loaded_model_json.load_weights('{}/{}.weights.h5'.format(output_dir, model_name))
+        # load into new model
+        loaded_model_json.load_weights('{}/{}_network{}.h5'.format(output_dir, model_name, i))
         print("Loaded json model from disk")
 
         # evaluate json loaded model on test data
@@ -328,7 +330,7 @@ def run(gParameters):
         print("json %s: %.2f%%" % (loaded_model_json.metrics_names[1], score_json[1]*100))
 
         # load weights into new model
-        loaded_model_yaml.load_weights('{}/{}.weights.h5'.format(output_dir, model_name))
+        loaded_model_yaml.load_weights('{}/{}_network{}.h5'.format(output_dir, model_name, i))
         print("Loaded yaml model from disk")
 
         # evaluate loaded model on test data
@@ -342,6 +344,9 @@ def run(gParameters):
 
         print("yaml %s: %.2f%%" % (loaded_model_yaml.metrics_names[1], score_yaml[1]*100))
 
+        acc_file = open('{}/{}_accuracy.txt'.format(output_dir, model_name),'w')
+        acc_file.write(str(round(score_yaml[1],4)*100))
+        acc_file.close()
     return history
 
 def main():
