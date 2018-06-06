@@ -33,9 +33,7 @@ from solr_keras import CandleRemoteMonitor, compute_trainable_params, TerminateO
 
 #make next available directory
 save_figures = '../figures/'
-i=1
-while os.path.exists(save_figures+'analysis_network'+str(i)+'.png'):
-    i+=1
+i=sys.argv[1]
 
 #url_nt3 = 'ftp://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/normal-tumor/'
 #file_train = 'nt_train2.csv'

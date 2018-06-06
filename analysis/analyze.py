@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os.path
 import keras
+import sys
 
 file_path = '../results/' 
 save_path = '../figures/'
@@ -10,9 +11,7 @@ scores0_file = 'revealcancel_0_scores_mean.csv'
 scores1_file = 'revealcancel_1_scores_mean.csv'
 #label_file = 'new_test_data_tr_978.csv'
 label_file = '../data-05-31-2018/formatted_full_data.csv'
-i=1
-while os.path.exists(save_path+'analysis_network'+str(i)+'.png'):
-    i+=1
+i=sys.argv[1]
 network_dir = '../networks/network'+str(i)+'/'
 model_name = 'nt3'
 

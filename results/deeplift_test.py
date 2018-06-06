@@ -2,12 +2,10 @@ from __future__ import print_function
 import keras
 keras.__version__
 import os.path
-
-j=1
-while os.path.exists('../figures/analysis_network'+str(j)+'.png'):
-    j+=1
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler
+import sys
+j=sys.argv[1]
 network_path = "../networks/network"+str(j)+'/'
-
 keras_model = keras.models.load_model(network_path+"nt3_network"+str(j)+".h5")
 keras_model.summary()
 
@@ -29,6 +27,8 @@ df_y_test = df_test[:,0].astype('int')
 seqlen = df_test.shape[1]
 Y_test = np_utils.to_categorical(df_y_test,2)
 X_test = df_test[:, 1:seqlen].astype(np.float32)
+scaler = MaxAbsScaler()
+X_test = scaler.fit_transform(X_test)
 
 ### import deeplift and compile functions
 from deeplift.util import compile_func
@@ -89,13 +89,13 @@ method_to_task_to_scores = OrderedDict()
 print("HEADS UP! integrated_grads_5 and integrated_grads_10 take 5x and 10x longer to run respectively")
 print("Consider leaving them out to get faster results")
 for method_name, score_func in [
-                               ('revealcancel', revealcancel_func),
-                               ('guided_backprop_masked', guided_backprop_func_masked),
-                               ('guided_backprop_times_inp', guided_backprop_times_inp_func),
-                               ('simonyan_masked', simonyan_func_masked),
-                               ('grad_times_inp', grad_times_inp_func),
-                               ('integrated_grads_5', integrated_grads_5),
-                               ('integrated_grads_10', integrated_grads_10)
+                               ('revealcancel', revealcancel_func)#,
+                               #('guided_backprop_masked', guided_backprop_func_masked),
+                               #('guided_backprop_times_inp', guided_backprop_times_inp_func),
+                               #('simonyan_masked', simonyan_func_masked),
+                               #('grad_times_inp', grad_times_inp_func),
+                               #('integrated_grads_5', integrated_grads_5),
+                               #('integrated_grads_10', integrated_grads_10)
 ]:
     print("Computing scores for:",method_name)
     method_to_task_to_scores[method_name] = {}
